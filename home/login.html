@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login/Sign up - BRAIN.IT - Ingresar</title>
+  <link rel="stylesheet" href="../style/in_style.css">
+  <!-- Metadatos alain, todo bien aquí -->
+</head>
+<body>
+  <div class="ad_banner">
+    <h1>LOGIN/SIGN UP - BRAIN.IT</h1>
+  </div>
+
+  <main>
+    <form id="loginForm" action="data/users.json" method="post" class="form_group" id="forms_local">
+      <input type="email" name="email" placeholder="Ingresa tu correo electrónico">
+      <input type="password" name="password" placeholder="Ingresa tu contraseña segura">
+      <input class="accept_terms" type="checkbox" name="accept" id="accept">
+      <label for="accept">Aceptas nuestros términos y condiciones.</label>
+      <button type="submit" class="in">¡Ingresar Ahora!</button>
+    </form>
+  </main>
+</body>
+<script src="script/in_main.js"></script>
+</html>
