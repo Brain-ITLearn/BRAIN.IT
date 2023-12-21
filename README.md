@@ -1,4 +1,4 @@
-# Proyecto BrainIT Learn.
+# Proyecto BrainIT Learn. - Comunidad de Aprendizaje en Linea
 
 ## Descripción
 Este repositorio contiene el código fuente para la creación de una página web que combina aprendizaje, noticias y un foro comunitario. Está dirigido a programadores, expertos en IT, gestores de datos, profesionales en Machine Learning, ensambladores de dispositivos y técnicos.
