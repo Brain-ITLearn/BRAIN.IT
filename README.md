@@ -1,4 +1,4 @@
-# Proyecto LearnTech Forum
+# Proyecto BrainIT Learn.
 
 ## Descripción
 Este repositorio contiene el código fuente para la creación de una página web que combina aprendizaje, noticias y un foro comunitario. Está dirigido a programadores, expertos en IT, gestores de datos, profesionales en Machine Learning, ensambladores de dispositivos y técnicos.
@@ -20,7 +20,4 @@ Este repositorio contiene el código fuente para la creación de una página web
 ## Licencia
 Este proyecto está bajo la Licencia [Nombre de la Licencia]. Ver el archivo LICENSE.md para más detalles.
 
-## Contacto
-- Autor: [Tu Nombre]
-- Email: [Tu Email]
-- Twitter: [@TuUsuarioTwitter]
+- Autor: [Juan Sanchez Jr, BrainIT Learn y Contribuidores]
