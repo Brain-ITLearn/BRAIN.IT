@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login/Sign up - BRAIN.IT - Ingresar</title>
-  <link rel="stylesheet" href="../style/in_style.css">
-  <!-- Metadatos alain, todo bien aquí -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar - BrainIT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .brand {
+            font-size: 50pt;
+            color: #565656;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 1px solid #ccc;
+        }
+
+        button {
+            background-color: #ff6163;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        
+        input:focus,
+        input:hover {
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #ff6163;
+          border-left: 10px solid #ff6163;
+          background-color: #bfbfbf6a;
+          transition: 300ms;
+        }
+        b {
+          color: #ff6163;
+          font-family: Monospace;
+        }
+        
+        .ad {
+          font-size: 7.5pt;
+          color: #303030;
+        }
+        .ads-out {
+          background-color: #303030;
+          padding: 10px;
+          color: White;
+          margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="ad_banner">
-    <h1>LOGIN/SIGN UP - BRAIN.IT</h1>
-  </div>
 
-  <main>
-    <form id="loginForm" action="data/users.json" method="post" class="form_group" id="forms_local">
-      <input type="email" name="email" placeholder="Ingresa tu correo electrónico">
-      <input type="password" name="password" placeholder="Ingresa tu contraseña segura">
-      <input class="accept_terms" type="checkbox" name="accept" id="accept">
-      <label for="accept">Aceptas nuestros términos y condiciones.</label>
-      <button type="submit" class="in">¡Ingresar Ahora!</button>
-    </form>
-  </main>
+    <div class="login-container">
+        <div class="brand">Brain<b>IT</b></div>
+        <input type="email" placeholder="Ingresa tu correo" required>
+        <input type="password" placeholder="Ingresa tu Contraseña" required>
+        <div class="ads-out">
+          <marquee>Ingresa a el foro de programadores, tecnicos y aprendices más desarrollado y ambicioso, solo crea o inicia sesion en tu cuenta y empieza a navegar.</marquee>
+        </div>
+        <button type="submit">Ingresar Ahora!</button>
+        <p class="ad">BrainIT Learn de IKOME Corporation ©, BrainIT comunidad latina e hispana de desarrolladores e IT masters. 2024, si no cuenta con una cuenta puede <a href="home/inlogin.html">crearla desde aqui.</a></p>
+    </div>
+
 </body>
-<script src="script/in_main.js"></script>
+</html>
 </html>
