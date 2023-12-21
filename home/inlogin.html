@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        input:hover,
+        input:focus {
+          outline: none;
+          border-bottom: 2px solid #ed5959;
+          border-left: 10px solid #ed5959;
+          transition: 300ms;
+          background-color: #cccccc4b;
+        }
+
+        button {
+            background-color: #ed5959;
+            color: white;
+            padding: 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #f09a9a;
+        }
+        
+        h1 {
+          color: #3c3c3c;
+          font-size: 45pt;
+        }
+        
+        .ad {
+          font-size: 10pt;
+        }
+    </style>
+    <title>Hola, Crea tu Cuenta - BrainIT</title>
+</head>
+<body>
+    <div class="login-container">
+    <form class="login-form">
+     
+    <h1>CREAR TU CUENTA</h1>
+      
+  <input type="text" id="username" placeholder="¿Como te llamaras?" required>
+  <input type="email" id="email" placeholder="Ingresa un correo activo" required>
+  <input type="password" id="password" placeholder="Ingresa una contraseña segura (min. 8 digitos)" required>
+  <button type="submit">Crear Mi Cuenta Ahora</button>
+    </form>
+  <p class="ad">¿Ya cuentas con una cuenta?, eso es genial pero estas en la pagina incorrecta, porfavor ve a <a href="home/login.html">Iniciar sesion en tu cuenta.</a></p>
+    
+</div>
+</body>
+</html>
